@@ -13,7 +13,7 @@ The dataset used is the **CO₂ Emissions for Vehicles (Canada)** dataset, which
 - Fuel consumption (city, highway, combined)
 - CO₂ emissions (target variable)
 
-## 🎯 Objective
+## Objective
 
 To predict **CO₂ emissions (g/km)** using vehicle features and:
 
@@ -88,6 +88,8 @@ To compare models statistically:
 
 ## Best Performing Model
 
+The best model is selected based on test R² score.
+
 ```markdown
 ## Feature Engineering Comparison
 
@@ -97,7 +99,3 @@ A toggle-based system was implemented:
 - `USE_ENGINEERED_FEATURES = True` → with engineered features
 
 Each run is executed separately and saved, ensuring a fair comparison between feature sets.
-
-The best model is selected based on test R² score.
-
-Example:
