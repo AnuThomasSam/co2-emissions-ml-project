@@ -47,7 +47,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # %%
-co2_vehicles= pd.read_csv('C:/College/MachineLearning/Dataset/CO2_Dataset/CO2 Emissions_Canada.csv')
+co2_vehicles= pd.read_csv('data/CO2 Emissions_Canada.csv')
 df=co2_vehicles.copy()
 df.head(5)
 
