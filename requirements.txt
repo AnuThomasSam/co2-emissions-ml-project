@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+scipy
+shap
+xgboost
+lightgbm
+catboost
+optuna
+scikit-posthocs
